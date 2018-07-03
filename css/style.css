@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+body{
+    color: #737373;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+    display:block;
+}
+
+/*header*/
+.container{
+    width: 1000px;
+    margin:0 auto;
+}
+.header{
+    
+padding: 30px 0;
+    
+border-bottom: 1px solid #9e9c9c;
+}
+.logo{
+    width:20%;
+    float:left;
+}
+.logo img{}
+.social-icon{
+    width:80%;
+    float:left;
+}
+.social-icon ul{
+    text-align:  right;
+}
+.social-icon ul li{
+    display:  inline-block;
+    list-style:  none;
+}
+.social-icon ul li a{}
+.social-icon ul li:first-child a{
+    position:  relative;
+    display:  block;
+}
+.social-icon ul li:first-child a img:last-child{
+    position:  absolute;
+    top: 50%;
+    left: 35%;
+}
+/*header*/
+
+/*header menu*/
+.container{
+    overflow:  hidden;
+}
+nav{
+    padding:  25px 0;
+    overflow:  hidden;
+}
+nav ul{}
+nav ul li{
+    float: left;
+    list-style:  none;
+}
+nav ul li a{
+    display:  block;
+    padding: 15px 15px 15px 0;
+    color: #747474;
+    text-decoration:  none;
+    text-transform:  uppercase;
+    font-weight: 600;
+}
+nav ul li a:hover{}
+/*header menu*/
+
+/*banner*/
+.banner{
+    position:  relative;
+    margin-bottom: 100px;
+}
+
+
+
+.banner img.monitor{
+    
+    position:  absolute;
+    
+    bottom: -60px;
+    
+    left: 50%;
+    
+    transform: translateX(-50%);
+    margin:0 auto;
+}
+/*banner*/
+
+/*banner footer*/
+.banner-footer{
+    margin-top:  50px;
+    text-align:  center;
+    margin-bottom: 50px;
+}
+.banner-footer p{}
+.banner-footer a{
+    background: #4CAF50;
+    color: white;
+    text-decoration:  none;
+    text-transform:  uppercase;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top:  20px;
+}
+/*banner footer*/
+
+/*vedio banner*/
+.vedio-banner{
+    background: #e5e5e5;
+    padding: 50px 0;
+    overflow: hidden;
+
+}
+.vedio{
+    width: 50%;
+    float: left;
+    padding:32px 15px;
+}
+.vedio img{
+    width: 100%;
+}
+.article{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.article h1{
+    font-size: 35px;
+}
+.article p{
+    font-size: 20px;
+
+}
+/*vedio banner*/
+
+/*footer*/
+
+.footer{
+    width:100%;
+    background: #2c2727;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.first{
+    width:70%;
+    float: left;
+}
+.first h4{
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0 25px;
+
+    
+}
+.second{
+    width:30%;
+    float: left;
+    padding: 30px 0;
+    text-align: right;
+    padding-right: 15px;
+}
+.second a{
+    background: #1fc766;
+    font-size: 15px;
+    text-transform:  uppercase;
+    padding: 10px 35px;
+    display:  inline-block;
+    text-decoration:  none;
+    color:  white;
+    font-weight:  bold;
+}
+/*footer*/
+
+/*end*/
+
+.end{
+    width: 100%;
+
+}
+.part-1{
+    width: 40%;
+    float: left;
+    padding: 10px 22px;
+    color: #737373;
+}
+.part-1 p{}
+.part-2{
+    width: 60%;
+    float:left;
+}
+.part-2 ul{
+     text-align:  right;
+     padding: 10px;
+}
+.part-2 ul li{
+    display:  inline-block;
+    list-style:  none;
+}
+.part-2 ul li a{
+    text-decoration:  none;
+    font-size: 15px;
+    text-transform:  uppercase;
+    color: #737373;
+    margin-left: 10px;
+}
+
+/*end*/
